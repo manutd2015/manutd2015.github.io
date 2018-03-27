@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: Lato;
+}
+
+h1 {
+    font-family: "Arvo";
+    font-size:35px;
+    color: #464646;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.info{
+    margin-left: 20px;
+}
+.tile {
+    stroke: #FFF;
+    stroke-width: 4;
+}
+
+.yeartext, .tilestext, .brushtext{
+    text-anchor:middle;
+    font-size: 24px;
+    fill: #565656;
+    stroke-width: 0.1px;
+    /*stroke: #e5e5e5;*/
+}
+
+.end{
+    text-anchor:end;
+}
+
+.Axis{
+    stroke: #eee;
+    stroke-width: 4;
+}
+.content {
+    display: inline-block;
+    width: 70%;
+}
+
+.sideBar {
+    display: inline-block;
+    width: 30%;
+    float:right;
+}
+
+.fullView{
+    display: inline-block;
+    width: 100%;
+}
+
+.brush .selection {
+    fill-opacity: .5;
+}
+
+.selected{
+    stroke: #404040;;
+    stroke-width:4;
+    r:25px;
+}
+
+
+h2{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after:  5px;
+}
+.d3-tip {
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: 35px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: skyblue;
+    border: 2px;
+    border-style: groove;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.tooltip-title{
+    font-size:18px;
+    font-family: "Arial Black";
+
+}
+
+.selectTeam{
+    width: 75px;
+    height: 75px;
+}
